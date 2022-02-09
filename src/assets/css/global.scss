@@ -1,0 +1,12 @@
+.debug-flag {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: red;
+  color: white;
+  font-weight: bold;
+
+  &:before {
+    content: 'DEBUG';
+  }
+}
