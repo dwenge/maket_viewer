@@ -1,0 +1,556 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Пуговки",
+      "code": "pugovki",
+      "path": "/projects/pugovki/"
+    },
+    {
+      "id": 2,
+      "name": "Тестовый проект",
+      "code": "test-project",
+      "path": "/projects/test-project/"
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "project_id": 1,
+      "name": "Главная",
+      "code": "glavnaya",
+      "path": "",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/pugovki/1920/glavnaya.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000,
+          "showed": true,
+          "status": "new"
+        },
+        {
+          "type_id": 2,
+          "path": "/projects/pugovki/1600/glavnaya.html",
+          "file": "https://place-hold.it/1600x2500.jpg",
+          "width": 1600,
+          "height": 2500
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/pugovki/1366/glavnaya.html",
+          "file": "https://place-hold.it/1366x3000.jpg",
+          "width": 1366,
+          "height": 3000,
+          "showed": true,
+          "status": "change"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "project_id": 1,
+      "name": "Главная разделители v2",
+      "code": "glavnaya-razdeliteli-v2",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/pugovki/1920/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000,
+          "showed": true,
+          "status": "new"
+        },
+        {
+          "type_id": 2,
+          "path": "/projects/pugovki/1600/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1600x2500.jpg",
+          "width": 1600,
+          "height": 2500
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/pugovki/1366/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 4,
+          "path": "/projects/pugovki/1024/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1024x1300.jpg",
+          "width": 1024,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 5,
+          "path": "/projects/pugovki/768/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/768x1500.jpg",
+          "width": 768,
+          "height": 1500,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 7,
+          "path": "/projects/pugovki/320/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/320x1000.jpg",
+          "width": 320,
+          "height": 1000,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 8,
+          "path": "/projects/pugovki/other/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/500x500.jpg",
+          "width": 500,
+          "height": 500,
+          "showed": true,
+          "status": "change"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "project_id": 1,
+      "name": "Меню каталога",
+      "code": "menu-cataloga",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/pugovki/1920/menu-cataloga.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000,
+          "showed": true,
+          "status": "new"
+        },
+        {
+          "type_id": 2,
+          "path": "/projects/pugovki/1600/menu-cataloga.html",
+          "file": "https://place-hold.it/1600x2500.jpg",
+          "width": 1600,
+          "height": 2500
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/pugovki/1366/menu-cataloga.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 4,
+          "path": "/projects/pugovki/1024/menu-cataloga.html",
+          "file": "https://place-hold.it/1024x1300.jpg",
+          "width": 1024,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 5,
+          "path": "/projects/pugovki/768/menu-cataloga.html",
+          "file": "https://place-hold.it/768x1500.jpg",
+          "width": 768,
+          "height": 1500,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 7,
+          "path": "/projects/pugovki/320/menu-cataloga.html",
+          "file": "https://place-hold.it/320x1000.jpg",
+          "width": 320,
+          "height": 1000,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 8,
+          "path": "/projects/pugovki/other/menu-cataloga.html",
+          "file": "https://place-hold.it/500x500.jpg",
+          "width": 500,
+          "height": 500,
+          "showed": true,
+          "status": "change"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "project_id": 1,
+      "name": "Меню",
+      "code": "menu",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/pugovki/1920/menu.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000,
+          "showed": true,
+          "status": "new"
+        },
+        {
+          "type_id": 2,
+          "path": "/projects/pugovki/1600/menu.html",
+          "file": "https://place-hold.it/1600x2500.jpg",
+          "width": 1600,
+          "height": 2500
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/pugovki/1366/menu.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 4,
+          "path": "/projects/pugovki/1024/menu.html",
+          "file": "https://place-hold.it/1024x1300.jpg",
+          "width": 1024,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 5,
+          "path": "/projects/pugovki/768/menu.html",
+          "file": "https://place-hold.it/768x1500.jpg",
+          "width": 768,
+          "height": 1500,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 7,
+          "path": "/projects/pugovki/320/menu.html",
+          "file": "https://place-hold.it/320x1000.jpg",
+          "width": 320,
+          "height": 1000,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 8,
+          "path": "/projects/pugovki/other/menu.html",
+          "file": "https://place-hold.it/500x500.jpg",
+          "width": 500,
+          "height": 500,
+          "showed": true,
+          "status": "change"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "project_id": 1,
+      "name": "Test",
+      "code": "test",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/pugovki/1920/test.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/pugovki/1366/test.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "project_id": 2,
+      "name": "Главная разделители v2",
+      "code": "glavnaya-razdeliteli-v2",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/test-project/1920/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000,
+          "showed": true,
+          "status": "new"
+        },
+        {
+          "type_id": 2,
+          "path": "/projects/test-project/1600/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1600x2500.jpg",
+          "width": 1600,
+          "height": 2500
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/test-project/1366/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 4,
+          "path": "/projects/test-project/1024/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/1024x1300.jpg",
+          "width": 1024,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 5,
+          "path": "/projects/test-project/768/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/768x1500.jpg",
+          "width": 768,
+          "height": 1500,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 7,
+          "path": "/projects/test-project/320/glavnaya-razdeliteli-v2.html",
+          "file": "https://place-hold.it/320x1000.jpg",
+          "width": 320,
+          "height": 1000,
+          "showed": true,
+          "status": "change"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "project_id": 2,
+      "name": "Меню каталога",
+      "code": "menu-cataloga",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/test-project/1920/menu-cataloga.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000,
+          "showed": true,
+          "status": "new"
+        },
+        {
+          "type_id": 2,
+          "path": "/projects/test-project/1600/menu-cataloga.html",
+          "file": "https://place-hold.it/1600x2500.jpg",
+          "width": 1600,
+          "height": 2500
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/test-project/1366/menu-cataloga.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 4,
+          "path": "/projects/test-project/1024/menu-cataloga.html",
+          "file": "https://place-hold.it/1024x1300.jpg",
+          "width": 1024,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 5,
+          "path": "/projects/test-project/768/menu-cataloga.html",
+          "file": "https://place-hold.it/768x1500.jpg",
+          "width": 768,
+          "height": 1500,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 7,
+          "path": "/projects/test-project/320/menu-cataloga.html",
+          "file": "https://place-hold.it/320x1000.jpg",
+          "width": 320,
+          "height": 1000,
+          "showed": true,
+          "status": "change"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "project_id": 2,
+      "name": "Меню",
+      "code": "menu",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/test-project/1920/menu.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000,
+          "showed": true,
+          "status": "new"
+        },
+        {
+          "type_id": 2,
+          "path": "/projects/test-project/1600/menu.html",
+          "file": "https://place-hold.it/1600x2500.jpg",
+          "width": 1600,
+          "height": 2500
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/test-project/1366/menu.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 4,
+          "path": "/projects/test-project/1024/menu.html",
+          "file": "https://place-hold.it/1024x1300.jpg",
+          "width": 1024,
+          "height": 1300,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 5,
+          "path": "/projects/test-project/768/menu.html",
+          "file": "https://place-hold.it/768x1500.jpg",
+          "width": 768,
+          "height": 1500,
+          "showed": true,
+          "status": "change"
+        },
+        {
+          "type_id": 7,
+          "path": "/projects/test-project/320/menu.html",
+          "file": "https://place-hold.it/320x1000.jpg",
+          "width": 320,
+          "height": 1000,
+          "showed": true,
+          "status": "change"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "project_id": 2,
+      "name": "Test",
+      "code": "test",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/test-project/1920/test.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000
+        },
+        {
+          "type_id": 3,
+          "path": "/projects/test-project/1366/test.html",
+          "file": "https://place-hold.it/1366x1300.jpg",
+          "width": 1366,
+          "height": 1300
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "project_id": 2,
+      "name": "Test One",
+      "code": "test-one",
+      "variants": [
+        {
+          "type_id": 1,
+          "path": "/projects/test-project/1920/test-one.html",
+          "file": "https://place-hold.it/1920x3000.jpg",
+          "width": 1920,
+          "height": 3000
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "code": "1920",
+      "name": "Большие экраны FullHD",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-1920.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    },
+    {
+      "id": 2,
+      "code": "1600",
+      "name": "Средние экраны HD++",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-1600.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    },
+    {
+      "id": 3,
+      "code": "1366",
+      "name": "Малые экраны HD+",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-1366.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    },
+    {
+      "id": 4,
+      "code": "1024",
+      "name": "Планшеты горизонтально",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-1024.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    },
+    {
+      "id": 5,
+      "code": "768",
+      "name": "Планшеты вертикально",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-768.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    },
+    {
+      "id": 6,
+      "code": "380",
+      "name": "Телефоны",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-320.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    },
+    {
+      "id": 7,
+      "code": "320",
+      "name": "Телефоны",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-320.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    },
+    {
+      "id": 8,
+      "code": "other",
+      "name": "Прочее",
+      "icon": "http://mobiletest.itj-bitrix.ru/mv/variant-other.svg",
+      "big_icon": "http://placehold.it/120.jpg"
+    }
+  ]
+}

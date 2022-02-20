@@ -1,3 +1,20 @@
+@import '../fonts/ProximaNova/stylesheet.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #E3E3E3;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
 .debug-flag {
   position: absolute;
   right: 0;
@@ -9,4 +26,50 @@
   &:before {
     content: 'DEBUG';
   }
+}
+
+.circle-status {
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: transparent;
+
+  &.new {
+    background: #5DD424;
+  }
+
+  &.change {
+    background: #FFC90A;
+  }
+}
+
+.showed-status {
+  display: block;
+  width: 12px;
+  height: 6px;
+  background: transparent;
+
+  &.showed {
+    background: center no-repeat url(http://mobiletest.itj-bitrix.ru/mv/showed.svg);
+  }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 500ms;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */
+{
+  opacity: 0;
+}
+
+
+.slide-enter-active, .slide-leave-active {
+  transition: height 500ms;
+}
+
+.slide-enter, .slide-leave-to /* .fade-leave-active below version 2.1.8 */
+{
+  height: 0;
 }

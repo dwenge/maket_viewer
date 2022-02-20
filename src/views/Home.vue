@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <p>Пока что тут ничего нет</p>
+    <router-link to="/projects/test-project">Перейти в проект</router-link>
   </div>
 </template>
 

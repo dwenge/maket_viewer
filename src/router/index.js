@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+
+// import Home from '@/views/Home'
+import ProjectList from '@/views/ProjectList'
+import ProjectDetail from '@/views/ProjectDetail'
+import ProjectPage from '@/views/ProjectPage'
 
 Vue.use(VueRouter)
 
@@ -8,7 +12,22 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: ProjectList
+  },
+  // {
+  //   path: '/projects/',
+  //   name: 'ProjectList',
+  //   component: ProjectList
+  // },
+  {
+    path: '/projects/:project_code/',
+    name: 'ProjectDetail',
+    component: ProjectDetail
+  },
+  {
+    path: '/projects/:project_code/:page_type/:page_code.html',
+    name: 'ProjectPage',
+    component: ProjectPage
   }
   // {
   //   path: '/about',

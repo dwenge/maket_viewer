@@ -2031,6 +2031,11 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.1"
 
+backdropjs@^0.7.4:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/backdropjs/-/backdropjs-0.7.4.tgz#ef0255e28e8f25c755ec9a83c32d8b78ea5c5f46"
+  integrity sha512-NJhkH1kkXZrW33ToiwCKOBdX36RuOykEQqESSAWLNPn54y/VA7OaYekOl+UuuhGvV3jgkg1KgyYYb8r9fexFng==
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
